@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: #111827;
+  background: #ffffff;
+  overscroll-behavior: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Thin, subtle horizontal scrollbar for the panel board */
+.panel-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.panel-scroll::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 9999px;
+}
+.panel-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
